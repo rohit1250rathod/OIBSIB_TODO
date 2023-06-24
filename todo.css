@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    text-align: center;
+}
+.section{
+    display: flex;
+    margin: 20px;
+}
+.section1,.section2{
+    width: 50%;
+}
+li::marker{
+    display: none;
+    color: white;
+}
+.section1{
+    text-align: center;
+}
+.section2{
+    margin: 20px;
+    margin-left: 100px;
+}
+.section22{
+    width: 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px black;
+    clip-path: polygon(78% 0,100% 125px,100% 100%,0 100%,0 0);
+    border: 1px solid rgb(7, 71, 191);
+    /* padding: 20px 50px; */
+    min-height: 550px;
+    background-color: white;
+}
+
+.section1 .todoinput{
+    margin: 40% 0 0 0;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.todoinput::placeholder{
+    color: rgb(94, 94, 94);
+}
+.but{
+    margin-top: 30px;
+}
+.but button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(7, 71, 191);
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.but button:hover{
+    background-color: white;
+    color: rgb(7, 71, 191);
+    border: 1px solid rgb(7, 71, 191);
+}
+.section22 h1{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(7, 71, 191);
+}
+.container{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+.box,.box11{
+    display: flex;
+    /* justify-content: center; */
+    align-items: baseline;
+    font-size: 16px;
+}
+.box input{
+    position: relative;
+    top: 7px;
+    width: 60px;
+    transform: scale(2);
+    /* margin-right: 10px; */
+    border: 1px solid blue;
+}
+
+input[type="checkbox" ]:checked{
+    accent-color: green;
+}
+.box p{
+    width: 350px;
+    font-size: 17px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.box i button{
+    border: none;
+    font-size: 20px;
+    position: relative;
+    bottom: -5px;
+    color: red;
+}
+.box11{
+    height: 50px;
+}
+.box12 hr{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    border: none;
+}
+.triangle{
+    display: flex;
+}
+.tribox1{
+    width: 90%;
+}
+.tribox{
+    width: 25%;
+    height: 125px;
+    background-color: rgb(7, 71, 191);
+}
+#delete{
+    border: none;
+    background-color: none;
+    
+}
+#delete i{
+    font-size: 20px;
+    margin-bottom: -15px;
+    /* margin-top: 10px; */
+    color: red;
+
+}

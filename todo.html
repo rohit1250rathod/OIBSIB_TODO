@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="todo.css" />
+    <link
+      rel="stylesheet"
+      text="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="section">
+        <div class="section1">
+          <form class="fomr" id="form">
+            <input
+              type="text"
+              placeholder="Enter your Item list ...."
+              name="todoinput"
+              id="todoinput"
+              class="todoinput"
+            />
+            <div class="but">
+              <button onclick="createtodo()">Add item</button>
+            </div>
+          </form>
+        </div>
+        <div class="section2">
+          <div class="section22">
+            <div class="triangle">
+              <div class="tribox1">
+                <h1>To Do List</h1>
+              </div>
+              <div class="tribox"></div>
+            </div>
+            <div class="container" id="cont"></div>
+            <script src="todo.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
